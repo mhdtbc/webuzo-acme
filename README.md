@@ -1,5 +1,6 @@
 # 🔐 Webuzo Let's Encrypt Wildcard Certificate Automation
 
+My hoster is nice, but thanks to their recent migration from cpanel to webuzo, my whole acme certificate automation routine was broken. So i had to dive into webuzo API and fail multiple times before reaching a working state :
 This script automates the issuance and installation of a **Let's Encrypt wildcard certificate** on a **Webuzo-powered server** using [`acme.sh`](https://github.com/acmesh-official/acme.sh) and Webuzo’s DNS API.
 
 ## 📦 Features
@@ -20,7 +21,7 @@ This script automates the issuance and installation of a **Let's Encrypt wildcar
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/youruser/webuzo-ssl-auto
+   git clone https://github.com/mhdtbc/webuzo-acme
    cd webuzo-ssl-auto
    ```
 
