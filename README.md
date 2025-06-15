@@ -40,7 +40,7 @@ This script automates the issuance and installation of a **Let's Encrypt wildcar
 
 4. **Run the script**
    ```bash
-   bash issue_and_deploy_webuzo_cert.sh
+   bash acme-webuzo.sh
    ```
 
 ## 📁 Output
